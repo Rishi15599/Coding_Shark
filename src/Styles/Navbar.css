@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    height: 5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.nav-links{
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-links li{
+    margin-right: 2rem;
+}
+.logo{
+    margin-left: 2rem;
+    font: 2rem bold;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.active{
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+}
+.footer-main1{
+    text-align: center;
+    line-height: 1.5rem;
+    color: black;
+}
+
+.footer-main2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-main2 h4{
+    margin-bottom: 0.5rem;
+
+}
+.footer-main2 a{
+    font:bold 1rem cursive;
+    color: black;
+
+}
+.footer-main2 a:hover{
+    text-decoration: underline;
+    color: red;
+}
